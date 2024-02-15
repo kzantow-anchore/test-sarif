@@ -1,0 +1,13 @@
+name: "run"
+
+on:
+  push:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: test.sarif

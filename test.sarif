@@ -1,0 +1,215 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/errata01/os/schemas/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "grype",
+          "version": "0.0.0-dev",
+          "informationUri": "https://github.com/anchore/grype",
+          "rules": [
+            {
+              "id": "CVE-2022-48174-busybox",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2022-48174 critical vulnerability for busybox package"
+              },
+              "fullDescription": {
+                "text": "There is a stack overflow vulnerability in ash.c:6030 in busybox before 1.35. In the environment of Internet of Vehicles, this vulnerability can be executed from command to arbitrary code execution."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2022-48174\nSeverity: critical\nPackage: busybox\nVersion: 1.34.1-r7\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)",
+                "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| critical  | busybox  | 1.34.1-r7  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)  |\n"
+              },
+              "properties": {
+                "security-severity": "9.8"
+              }
+            },
+            {
+              "id": "CVE-2022-48174-ssl_client",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2022-48174 critical vulnerability for ssl_client package"
+              },
+              "fullDescription": {
+                "text": "There is a stack overflow vulnerability in ash.c:6030 in busybox before 1.35. In the environment of Internet of Vehicles, this vulnerability can be executed from command to arbitrary code execution."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2022-48174\nSeverity: critical\nPackage: ssl_client\nVersion: 1.34.1-r7\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)",
+                "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| critical  | ssl_client  | 1.34.1-r7  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)  |\n"
+              },
+              "properties": {
+                "security-severity": "9.8"
+              }
+            },
+            {
+              "id": "CVE-2024-0727-libcrypto1.1",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2024-0727 medium vulnerability for libcrypto1.1 package"
+              },
+              "fullDescription": {
+                "text": "Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL\nto crash leading to a potential Denial of Service attack\n\nImpact summary: Applications loading files in the PKCS12 format from untrusted\nsources might terminate abruptly.\n\nA file in PKCS12 format can contain certificates and keys and may come from an\nuntrusted source. The PKCS12 specification allows certain fields to be NULL, but\nOpenSSL does not correctly check for this case. This can lead to a NULL pointer\ndereference that results in OpenSSL crashing. If an application processes PKCS12\nfiles from an untrusted source using the OpenSSL APIs then that application will\nbe vulnerable to this issue.\n\nOpenSSL APIs that are vulnerable to this are: PKCS12_parse(),\nPKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes()\nand PKCS12_newpass().\n\nWe have also fixed a similar issue in SMIME_write_PKCS7(). However since this\nfunction is related to writing data we do not consider it security significant.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2024-0727\nSeverity: medium\nPackage: libcrypto1.1\nVersion: 1.1.1w-r1\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)",
+                "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libcrypto1.1  | 1.1.1w-r1  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)  |\n"
+              },
+              "properties": {
+                "security-severity": "5.5"
+              }
+            },
+            {
+              "id": "CVE-2024-0727-libssl1.1",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2024-0727 medium vulnerability for libssl1.1 package"
+              },
+              "fullDescription": {
+                "text": "Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL\nto crash leading to a potential Denial of Service attack\n\nImpact summary: Applications loading files in the PKCS12 format from untrusted\nsources might terminate abruptly.\n\nA file in PKCS12 format can contain certificates and keys and may come from an\nuntrusted source. The PKCS12 specification allows certain fields to be NULL, but\nOpenSSL does not correctly check for this case. This can lead to a NULL pointer\ndereference that results in OpenSSL crashing. If an application processes PKCS12\nfiles from an untrusted source using the OpenSSL APIs then that application will\nbe vulnerable to this issue.\n\nOpenSSL APIs that are vulnerable to this are: PKCS12_parse(),\nPKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes()\nand PKCS12_newpass().\n\nWe have also fixed a similar issue in SMIME_write_PKCS7(). However since this\nfunction is related to writing data we do not consider it security significant.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2024-0727\nSeverity: medium\nPackage: libssl1.1\nVersion: 1.1.1w-r1\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)",
+                "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libssl1.1  | 1.1.1w-r1  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)  |\n"
+              },
+              "properties": {
+                "security-severity": "5.5"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CVE-2022-48174-busybox",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports busybox at version 1.34.1-r7  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/apk/db/installed",
+                  "uriBaseId": "image://alpine:3.15",
+                  "description": {
+                    "text": "layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
+                  }
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-48174-ssl_client",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports ssl_client at version 1.34.1-r7  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/apk/db/installed",
+                  "uriBaseId": "image://alpine:3.15",
+                  "description": {
+                    "text": "layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
+                  }
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2024-0727-libcrypto1.1",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports libcrypto1.1 at version 1.1.1w-r1  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/apk/db/installed",
+                  "uriBaseId": "image://alpine:3.15",
+                  "description": {
+                    "text": "layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
+                  }
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2024-0727-libssl1.1",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports libssl1.1 at version 1.1.1w-r1  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/apk/db/installed",
+                  "uriBaseId": "image://alpine:3.15",
+                  "description": {
+                    "text": "layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
+                  }
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
