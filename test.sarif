@@ -94,7 +94,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "image/alpine:3.15/lib/apk/db/installed",
+                  "uri": "image://alpine:3.15/lib/apk/db/installed",
                   "uriBaseId": "image://alpine:3.15",
                   "description": {
                     "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
@@ -128,7 +128,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "image/alpine:3.15/lib/apk/db/installed",
+                  "uri": "image://alpine:3.15/lib/apk/db/installed",
                   "uriBaseId": "image://alpine:3.15",
                   "description": {
                     "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
@@ -162,7 +162,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "image/alpine:3.15/lib/apk/db/installed",
+                  "uri": "image://alpine:3.15/lib/apk/db/installed",
                   "uriBaseId": "image://alpine:3.15",
                   "description": {
                     "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
@@ -196,7 +196,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "image/alpine:3.15/lib/apk/db/installed",
+                  "uri": "image://alpine:3.15/lib/apk/db/installed",
                   "uriBaseId": "image://alpine:3.15",
                   "description": {
                     "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
