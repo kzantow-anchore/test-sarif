@@ -112,7 +112,10 @@
                   "name": "/lib/apk/db/installed",
                   "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
-              ]
+              ],
+              "message": {
+                "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
+              }
             }
           ]
         },
@@ -143,7 +146,10 @@
                   "name": "/lib/apk/db/installed",
                   "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
-              ]
+              ],
+              "message": {
+                "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
+              }
             }
           ]
         },
@@ -174,7 +180,10 @@
                   "name": "/lib/apk/db/installed",
                   "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
-              ]
+              ],
+              "message": {
+                "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
+              }
             }
           ]
         },
@@ -205,7 +214,10 @@
                   "name": "/lib/apk/db/installed",
                   "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
-              ]
+              ],
+              "message": {
+                "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
+              }
             }
           ]
         }
