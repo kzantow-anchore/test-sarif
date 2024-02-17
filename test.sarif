@@ -13,15 +13,15 @@
               "id": "CVE-2022-48174-busybox",
               "name": "ApkMatcherCpeMatch",
               "shortDescription": {
-                "text": "CVE-2022-48174 ccritical vulnerability for busybox package"
+                "text": "CVE-2022-48174 critical vulnerability for busybox package"
               },
               "fullDescription": {
-                "text": "There is a stack soverflow vulnerability in ash.c:6030 in busybox before 1.35. In the environment of Internet of Vehicles, this vulnerability can be executed from command to arbitrary code execution."
+                "text": "There is a stack overflow vulnerability in ash.c:6030 in busybox before 1.35. In the environment of Internet of Vehicles, this vulnerability can be executed from command to arbitrary code execution."
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2022-48174\nSeverity: critical\nPackage: busybox\nVersion: 1.34.1-r7\nFix Version: \nType: apk\nLocation: lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)",
-                "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| critical  | busybox  | 1.34.1-r7  |   | apk  | lib/apk/db/installed  | nvd:cpe  | [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)  |\n"
+                "text": "Vulnerability CVE-2022-48174\nSeverity: critical\nPackage: busybox\nVersion: 1.34.1-r7\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)",
+                "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| critical  | busybox  | 1.34.1-r7  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)  |\n"
               },
               "properties": {
                 "security-severity": "9.8"
@@ -38,8 +38,8 @@
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2022-48174\nSeverity: critical\nPackage: ssl_client\nVersion: 1.34.1-r7\nFix Version: \nType: apk\nLocation: lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)",
-                "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| critical  | ssl_client  | 1.34.1-r7  |   | apk  | lib/apk/db/installed  | nvd:cpe  | [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)  |\n"
+                "text": "Vulnerability CVE-2022-48174\nSeverity: critical\nPackage: ssl_client\nVersion: 1.34.1-r7\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)",
+                "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| critical  | ssl_client  | 1.34.1-r7  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)  |\n"
               },
               "properties": {
                 "security-severity": "9.8"
@@ -56,8 +56,8 @@
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2024-0727\nSeverity: medium\nPackage: libcrypto1.1\nVersion: 1.1.1w-r1\nFix Version: \nType: apk\nLocation: lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)",
-                "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libcrypto1.1  | 1.1.1w-r1  |   | apk  | lib/apk/db/installed  | nvd:cpe  | [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)  |\n"
+                "text": "Vulnerability CVE-2024-0727\nSeverity: medium\nPackage: libcrypto1.1\nVersion: 1.1.1w-r1\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)",
+                "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libcrypto1.1  | 1.1.1w-r1  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)  |\n"
               },
               "properties": {
                 "security-severity": "5.5"
@@ -74,8 +74,8 @@
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2024-0727\nSeverity: medium\nPackage: libssl1.1\nVersion: 1.1.1w-r1\nFix Version: \nType: apk\nLocation: lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)",
-                "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libssl1.1  | 1.1.1w-r1  |   | apk  | lib/apk/db/installed  | nvd:cpe  | [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)  |\n"
+                "text": "Vulnerability CVE-2024-0727\nSeverity: medium\nPackage: libssl1.1\nVersion: 1.1.1w-r1\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)",
+                "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libssl1.1  | 1.1.1w-r1  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)  |\n"
               },
               "properties": {
                 "security-severity": "5.5"
@@ -88,7 +88,7 @@
         {
           "ruleId": "CVE-2022-48174-busybox",
           "message": {
-            "text": "A critical vulnerability in apk package: busybox, version 1.34.1-r7 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: lib/apk/db/installed"
+            "text": "A critical vulnerability in apk package: busybox, version 1.34.1-r7 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: /lib/apk/db/installed"
           },
           "locations": [
             {
@@ -112,13 +112,13 @@
             }
           ],
           "partialFingerprints": {
-            "primaryLocationLineHash": "23773a62ed3984f8d3ade3f1d313b0c14d1c849983586386f78984f882016bfe:1"
+            "primaryLocationLineHash": "632ae1c64e2f9534c3ec0b9e03e702016526cb42ff0f783f4a9f0d9be3576d8e:1"
           }
         },
         {
           "ruleId": "CVE-2022-48174-ssl_client",
           "message": {
-            "text": "A critical vulnerability in apk package: ssl_client, version 1.34.1-r7 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: lib/apk/db/installed"
+            "text": "A critical vulnerability in apk package: ssl_client, version 1.34.1-r7 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: /lib/apk/db/installed"
           },
           "locations": [
             {
@@ -142,13 +142,13 @@
             }
           ],
           "partialFingerprints": {
-            "primaryLocationLineHash": "3085012efed118df1076c491d1db5d7fa721cac806625c127c23f672731f3da5:1"
+            "primaryLocationLineHash": "58e7f8603e562dc2c4aebe4772ab60358a90d6a90737087bca09a1cd5c403c05:1"
           }
         },
         {
           "ruleId": "CVE-2024-0727-libcrypto1.1",
           "message": {
-            "text": "A medium vulnerability in apk package: libcrypto1.1, version 1.1.1w-r1 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: lib/apk/db/installed"
+            "text": "A medium vulnerability in apk package: libcrypto1.1, version 1.1.1w-r1 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: /lib/apk/db/installed"
           },
           "locations": [
             {
@@ -172,13 +172,13 @@
             }
           ],
           "partialFingerprints": {
-            "primaryLocationLineHash": "b85ec77b99dd2d21273a277e6df957baf5058288cb9638dd22adbc484ddd47ee:1"
+            "primaryLocationLineHash": "370a0268e8d8aa5bc6471e758c94358b49c9f8850ea29a44a588c472427ebc4a:1"
           }
         },
         {
           "ruleId": "CVE-2024-0727-libssl1.1",
           "message": {
-            "text": "A medium vulnerability in apk package: libssl1.1, version 1.1.1w-r1 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: lib/apk/db/installed"
+            "text": "A medium vulnerability in apk package: libssl1.1, version 1.1.1w-r1 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: /lib/apk/db/installed"
           },
           "locations": [
             {
@@ -202,7 +202,7 @@
             }
           ],
           "partialFingerprints": {
-            "primaryLocationLineHash": "36ae561755e86c6e63bbf77ec97da8144925c29061d21ddcd01d4f836f2ffd2d:1"
+            "primaryLocationLineHash": "4adc5174d2ecc63df840e7abb9d86dfeec2b998319e9a27f888c932b15afceaf:1"
           }
         }
       ]
