@@ -20,8 +20,8 @@
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2022-48174\nSeverity: critical\nPackage: busybox\nVersion: 1.34.1-r7\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)",
-                "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| critical  | busybox  | 1.34.1-r7  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)  |\n"
+                "text": "Vulnerability CVE-2022-48174\nSeverity: critical\nPackage: busybox\nVersion: 1.34.1-r7\nFix Version: \nType: apk\nLocation: lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)",
+                "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| critical  | busybox  | 1.34.1-r7  |   | apk  | lib/apk/db/installed  | nvd:cpe  | [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)  |\n"
               },
               "properties": {
                 "security-severity": "9.8"
@@ -38,8 +38,8 @@
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2022-48174\nSeverity: critical\nPackage: ssl_client\nVersion: 1.34.1-r7\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)",
-                "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| critical  | ssl_client  | 1.34.1-r7  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)  |\n"
+                "text": "Vulnerability CVE-2022-48174\nSeverity: critical\nPackage: ssl_client\nVersion: 1.34.1-r7\nFix Version: \nType: apk\nLocation: lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)",
+                "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| critical  | ssl_client  | 1.34.1-r7  |   | apk  | lib/apk/db/installed  | nvd:cpe  | [CVE-2022-48174](https://nvd.nist.gov/vuln/detail/CVE-2022-48174)  |\n"
               },
               "properties": {
                 "security-severity": "9.8"
@@ -56,8 +56,8 @@
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2024-0727\nSeverity: medium\nPackage: libcrypto1.1\nVersion: 1.1.1w-r1\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)",
-                "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libcrypto1.1  | 1.1.1w-r1  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)  |\n"
+                "text": "Vulnerability CVE-2024-0727\nSeverity: medium\nPackage: libcrypto1.1\nVersion: 1.1.1w-r1\nFix Version: \nType: apk\nLocation: lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)",
+                "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libcrypto1.1  | 1.1.1w-r1  |   | apk  | lib/apk/db/installed  | nvd:cpe  | [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)  |\n"
               },
               "properties": {
                 "security-severity": "5.5"
@@ -74,8 +74,8 @@
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2024-0727\nSeverity: medium\nPackage: libssl1.1\nVersion: 1.1.1w-r1\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)",
-                "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libssl1.1  | 1.1.1w-r1  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)  |\n"
+                "text": "Vulnerability CVE-2024-0727\nSeverity: medium\nPackage: libssl1.1\nVersion: 1.1.1w-r1\nFix Version: \nType: apk\nLocation: lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)",
+                "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libssl1.1  | 1.1.1w-r1  |   | apk  | lib/apk/db/installed  | nvd:cpe  | [CVE-2024-0727](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)  |\n"
               },
               "properties": {
                 "security-severity": "5.5"
@@ -88,16 +88,14 @@
         {
           "ruleId": "CVE-2022-48174-busybox",
           "message": {
-            "text": "The path /lib/apk/db/installed reports busybox at version 1.34.1-r7  which is a vulnerable (apk) package installed in the container"
+            "text": "The path lib/apk/db/installed reports busybox at version 1.34.1-r7  which is a vulnerable (apk) package installed in the container",
+            "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace |\n| --- | --- | --- | --- | --- | --- | --- |\n| critical  | busybox  | 1.34.1-r7  |   | apk  | lib/apk/db/installed  | nvd:cpe  |\n"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "urn:oasis:names:specification:docbook:dtd:xml:4.1.2",
-                  "description": {
-                    "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
-                  }
+                  "uri": "image/alpine:3.15/lib/apk/db/installed"
                 },
                 "region": {
                   "startLine": 1,
@@ -111,26 +109,26 @@
                   "name": "/lib/apk/db/installed",
                   "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
-              ],
-              "message": {
-                "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
-              }
+              ]
             }
-          ]
+          ],
+          "partialFingerprints": {
+            "path": "lib/apk/db/installed",
+            "primaryLocationLineHash": "alpine:3.15////lib/apk/db/installed",
+            "source": "alpine:3.15"
+          }
         },
         {
           "ruleId": "CVE-2022-48174-ssl_client",
           "message": {
-            "text": "The path /lib/apk/db/installed reports ssl_client at version 1.34.1-r7  which is a vulnerable (apk) package installed in the container"
+            "text": "The path lib/apk/db/installed reports ssl_client at version 1.34.1-r7  which is a vulnerable (apk) package installed in the container",
+            "markdown": "**Vulnerability CVE-2022-48174**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace |\n| --- | --- | --- | --- | --- | --- | --- |\n| critical  | ssl_client  | 1.34.1-r7  |   | apk  | lib/apk/db/installed  | nvd:cpe  |\n"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "urn:oasis:names:specification:docbook:dtd:xml:4.1.2",
-                  "description": {
-                    "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
-                  }
+                  "uri": "image/alpine:3.15/lib/apk/db/installed"
                 },
                 "region": {
                   "startLine": 1,
@@ -144,26 +142,26 @@
                   "name": "/lib/apk/db/installed",
                   "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
-              ],
-              "message": {
-                "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
-              }
+              ]
             }
-          ]
+          ],
+          "partialFingerprints": {
+            "path": "lib/apk/db/installed",
+            "primaryLocationLineHash": "alpine:3.15////lib/apk/db/installed",
+            "source": "alpine:3.15"
+          }
         },
         {
           "ruleId": "CVE-2024-0727-libcrypto1.1",
           "message": {
-            "text": "The path /lib/apk/db/installed reports libcrypto1.1 at version 1.1.1w-r1  which is a vulnerable (apk) package installed in the container"
+            "text": "The path lib/apk/db/installed reports libcrypto1.1 at version 1.1.1w-r1  which is a vulnerable (apk) package installed in the container",
+            "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace |\n| --- | --- | --- | --- | --- | --- | --- |\n| medium  | libcrypto1.1  | 1.1.1w-r1  |   | apk  | lib/apk/db/installed  | nvd:cpe  |\n"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "urn:oasis:names:specification:docbook:dtd:xml:4.1.2",
-                  "description": {
-                    "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
-                  }
+                  "uri": "image/alpine:3.15/lib/apk/db/installed"
                 },
                 "region": {
                   "startLine": 1,
@@ -177,26 +175,26 @@
                   "name": "/lib/apk/db/installed",
                   "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
-              ],
-              "message": {
-                "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
-              }
+              ]
             }
-          ]
+          ],
+          "partialFingerprints": {
+            "path": "lib/apk/db/installed",
+            "primaryLocationLineHash": "alpine:3.15////lib/apk/db/installed",
+            "source": "alpine:3.15"
+          }
         },
         {
           "ruleId": "CVE-2024-0727-libssl1.1",
           "message": {
-            "text": "The path /lib/apk/db/installed reports libssl1.1 at version 1.1.1w-r1  which is a vulnerable (apk) package installed in the container"
+            "text": "The path lib/apk/db/installed reports libssl1.1 at version 1.1.1w-r1  which is a vulnerable (apk) package installed in the container",
+            "markdown": "**Vulnerability CVE-2024-0727**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace |\n| --- | --- | --- | --- | --- | --- | --- |\n| medium  | libssl1.1  | 1.1.1w-r1  |   | apk  | lib/apk/db/installed  | nvd:cpe  |\n"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "urn:oasis:names:specification:docbook:dtd:xml:4.1.2",
-                  "description": {
-                    "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
-                  }
+                  "uri": "image/alpine:3.15/lib/apk/db/installed"
                 },
                 "region": {
                   "startLine": 1,
@@ -210,12 +208,14 @@
                   "name": "/lib/apk/db/installed",
                   "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
-              ],
-              "message": {
-                "text": "file: lib/apk/db/installed, layers: sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983"
-              }
+              ]
             }
-          ]
+          ],
+          "partialFingerprints": {
+            "path": "lib/apk/db/installed",
+            "primaryLocationLineHash": "alpine:3.15////lib/apk/db/installed",
+            "source": "alpine:3.15"
+          }
         }
       ]
     }
