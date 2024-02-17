@@ -13,7 +13,7 @@
               "id": "CVE-2022-48174-busybox",
               "name": "ApkMatcherCpeMatch",
               "shortDescription": {
-                "text": "CVE-2022-48174 critical vulnerability for busybox package"
+                "text": "CVE-2022-48174 ccritical vulnerability for busybox package"
               },
               "fullDescription": {
                 "text": "There is a stack soverflow vulnerability in ash.c:6030 in busybox before 1.35. In the environment of Internet of Vehicles, this vulnerability can be executed from command to arbitrary code execution."
