@@ -88,7 +88,7 @@
         {
           "executionSuccessful": true,
           "workingDirectory": {
-            "uri": "thing/alpine:3.15"
+            "uri": "thing/alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864"
           }
         }
       ],
@@ -96,13 +96,13 @@
         {
           "ruleId": "CVE-2022-48174-busybox",
           "message": {
-            "text": "a critical vulnerability in apk package: busybox, version 1.34.1-r7 was found in image 'alpine:3.15' at 'lib/apk/db/installed'"
+            "text": "A critical vulnerability in apk package: busybox, version 1.34.1-r7 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: lib/apk/db/installed"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "image/alpine:3.15/lib/apk/db/installed"
+                  "uri": "image/alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864/lib/apk/db/installed"
                 },
                 "region": {
                   "startLine": 1,
@@ -114,27 +114,27 @@
               "logicalLocations": [
                 {
                   "name": "/lib/apk/db/installed",
-                  "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
+                  "fullyQualifiedName": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
               ]
             }
           ],
           "partialFingerprints": {
             "path": "lib/apk/db/installed",
-            "primaryLocationLineHash": "alpine:3.15////lib/apk/db/installed",
-            "source": "alpine:3.15"
+            "primaryLocationLineHash": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864////lib/apk/db/installed",
+            "source": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864"
           }
         },
         {
           "ruleId": "CVE-2022-48174-ssl_client",
           "message": {
-            "text": "a critical vulnerability in apk package: ssl_client, version 1.34.1-r7 was found in image 'alpine:3.15' at 'lib/apk/db/installed'"
+            "text": "A critical vulnerability in apk package: ssl_client, version 1.34.1-r7 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: lib/apk/db/installed"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "image/alpine:3.15/lib/apk/db/installed"
+                  "uri": "image/alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864/lib/apk/db/installed"
                 },
                 "region": {
                   "startLine": 1,
@@ -146,27 +146,27 @@
               "logicalLocations": [
                 {
                   "name": "/lib/apk/db/installed",
-                  "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
+                  "fullyQualifiedName": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
               ]
             }
           ],
           "partialFingerprints": {
             "path": "lib/apk/db/installed",
-            "primaryLocationLineHash": "alpine:3.15////lib/apk/db/installed",
-            "source": "alpine:3.15"
+            "primaryLocationLineHash": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864////lib/apk/db/installed",
+            "source": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864"
           }
         },
         {
           "ruleId": "CVE-2024-0727-libcrypto1.1",
           "message": {
-            "text": "a medium vulnerability in apk package: libcrypto1.1, version 1.1.1w-r1 was found in image 'alpine:3.15' at 'lib/apk/db/installed'"
+            "text": "A medium vulnerability in apk package: libcrypto1.1, version 1.1.1w-r1 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: lib/apk/db/installed"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "image/alpine:3.15/lib/apk/db/installed"
+                  "uri": "image/alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864/lib/apk/db/installed"
                 },
                 "region": {
                   "startLine": 1,
@@ -178,27 +178,27 @@
               "logicalLocations": [
                 {
                   "name": "/lib/apk/db/installed",
-                  "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
+                  "fullyQualifiedName": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
               ]
             }
           ],
           "partialFingerprints": {
             "path": "lib/apk/db/installed",
-            "primaryLocationLineHash": "alpine:3.15////lib/apk/db/installed",
-            "source": "alpine:3.15"
+            "primaryLocationLineHash": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864////lib/apk/db/installed",
+            "source": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864"
           }
         },
         {
           "ruleId": "CVE-2024-0727-libssl1.1",
           "message": {
-            "text": "a medium vulnerability in apk package: libssl1.1, version 1.1.1w-r1 was found in image 'alpine:3.15' at 'lib/apk/db/installed'"
+            "text": "A medium vulnerability in apk package: libssl1.1, version 1.1.1w-r1 was found in image alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864 at: lib/apk/db/installed"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "image/alpine:3.15/lib/apk/db/installed"
+                  "uri": "image/alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864/lib/apk/db/installed"
                 },
                 "region": {
                   "startLine": 1,
@@ -210,15 +210,15 @@
               "logicalLocations": [
                 {
                   "name": "/lib/apk/db/installed",
-                  "fullyQualifiedName": "alpine:3.15@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
+                  "fullyQualifiedName": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864@sha256:2879a4821959ab702528e28a1c59cd26c4956112497f6d1dbfd86c8d88003983:/lib/apk/db/installed"
                 }
               ]
             }
           ],
           "partialFingerprints": {
             "path": "lib/apk/db/installed",
-            "primaryLocationLineHash": "alpine:3.15////lib/apk/db/installed",
-            "source": "alpine:3.15"
+            "primaryLocationLineHash": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864////lib/apk/db/installed",
+            "source": "alpine:3.15@sha256:19b4bcc4f60e99dd5ebdca0cbce22c503bbcff197549d7e19dab4f22254dc864"
           }
         }
       ]
